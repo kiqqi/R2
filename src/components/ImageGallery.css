@@ -1,0 +1,21 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.gallery-image {
+  width: 800px; /* Cambia este tamaño si deseas que sea más pequeño o más grande */
+  height: auto;
+}
+
+.gallery-buttons {
+  margin-top: 10px;
+}
+
+.gallery-buttons button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
